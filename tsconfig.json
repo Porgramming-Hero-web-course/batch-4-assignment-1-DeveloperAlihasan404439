@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",              // Set an appropriate JavaScript target
+    "module": "NodeNext",           // Matches modern module system
+    "moduleResolution": "NodeNext", // Ensures correct module resolution
+    "outDir": "./dist",             // Specify output directory
+    "strict": true,                 // Enable strict type-checking options
+    "esModuleInterop": true         // Allow CommonJS and ES modules interop
+  },
+  "include": ["src/**/*"],          // Include files in the "src" directory
+  "exclude": ["node_modules"]       // Exclude unnecessary directories
+}
